@@ -31,9 +31,10 @@ python3 scripts/data_acquisition/main.py
 
 El cargador escribe las copias de trabajo en `data/raw/` y el resultado de la validación en `data/carga_fase1.json`. Ambas salidas se regeneran localmente.
 
-Para volver a ejecutar el notebook en el entorno de Poetry:
+Para instalar las dependencias desde PyPI y abrir el notebook con Poetry:
 
 ```bash
+poetry install
 poetry run jupyter lab scripts/data_acquisition/carga_de_datos.ipynb
 ```
 

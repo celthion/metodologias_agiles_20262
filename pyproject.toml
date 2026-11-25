@@ -21,8 +21,3 @@ seaborn = "^0.13"
 [tool.poetry.group.notebook.dependencies]
 jupyterlab = "^4.3"
 ipykernel = ">=6.29,<8"
-
-[[tool.poetry.source]]
-name = "fury-pypi"
-url = "https://pypi.artifacts.furycloud.io/simple"
-priority = "primary"
