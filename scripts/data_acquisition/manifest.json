@@ -1,0 +1,164 @@
+{
+  "version": "fase1-2026-09-01",
+  "fecha_corte": "2026-09-01",
+  "origen": "data/source",
+  "archivos": {
+    "canticos.csv": {
+      "sha256": "a2d3cdac9f5bdb0f821edcc65083d9d14cdf60d263a658cb6d7b8b9b7f6b7183",
+      "bytes": 350954,
+      "filas": 600,
+      "columnas": [
+        "cantico_id",
+        "club_id",
+        "equipo_mencionado_fuente",
+        "titulo_referencia",
+        "letra_original",
+        "contexto_cantico",
+        "referente_contextual",
+        "fuente_contexto",
+        "estado_contexto",
+        "fuente",
+        "url",
+        "fecha_consulta",
+        "fecha_publicacion",
+        "metodo_adquisicion",
+        "numero_palabras",
+        "estado_verificacion",
+        "posible_similar_a",
+        "revision_manual",
+        "observacion_revision"
+      ]
+    },
+    "clubes.csv": {
+      "sha256": "2b4e60e8c206a65caf679c81cd8ab6ad90a5d403397dcf2d1dd49b728c813061",
+      "bytes": 10179,
+      "filas": 20,
+      "columnas": [
+        "club_id",
+        "nombre_oficial",
+        "nombre_corto",
+        "ciudad_sede",
+        "departamento",
+        "region",
+        "anio_fundacion",
+        "estadio_principal",
+        "participa_liga_a_2026",
+        "titulos_liga_hasta_2026_I",
+        "subcampeonatos_liga_hasta_2026_I",
+        "periodo_rendimiento",
+        "torneos_disputados_periodo",
+        "clasificaciones_fase_final_periodo",
+        "tasa_clasificacion",
+        "promedio_asistencia_2025",
+        "partidos_con_dato_asistencia",
+        "nombre_en_fuente_asistencia",
+        "instagram_oficial",
+        "seguidores_instagram",
+        "seguidores_instagram_texto_fuente",
+        "precision_seguidores",
+        "fecha_corte_seguidores",
+        "fuente_instagram",
+        "ref_universo",
+        "ref_palmares",
+        "ref_rendimiento",
+        "ref_asistencia",
+        "ref_instagram",
+        "observaciones_datos_club"
+      ]
+    },
+    "control_cobertura.csv": {
+      "sha256": "14f5a0e408dd79b16339b63deb086ab144bc76b995b985ed96fa05af467c4aca",
+      "bytes": 3321,
+      "filas": 20,
+      "columnas": [
+        "club_id",
+        "nombre_corto",
+        "fanchants_total_declarado",
+        "fanchants_recuperados",
+        "barrabrava_recuperados",
+        "registros_finales",
+        "estado_primera_pasada",
+        "interpretacion"
+      ]
+    },
+    "duplicados_exactos.csv": {
+      "sha256": "44d459bc1672ebaf771f0b2a4a47b6266f416ffc929592a1f2c3c62085fad3d0",
+      "bytes": 3575,
+      "filas": 10,
+      "columnas": [
+        "club_id",
+        "titulo_conservado",
+        "fuente_conservada",
+        "url_conservada",
+        "titulo_descartado",
+        "fuente_descartada",
+        "url_descartada",
+        "regla"
+      ]
+    },
+    "fuentes_revisadas.csv": {
+      "sha256": "cbe86efb50c2e82e8ba5010ca658e4fc0eae5114eda0d96b699f8900e7c23b6b",
+      "bytes": 4392,
+      "filas": 31,
+      "columnas": [
+        "url",
+        "club_id",
+        "equipo_fuente",
+        "decision",
+        "motivo",
+        "enlaces_letra",
+        "recuperados",
+        "errores"
+      ]
+    },
+    "cambios_identidad_clubes.csv": {
+      "sha256": "385ce10ee03f1c21da5b652de9e61e87f7f0a2ce4c6aa9a7c49f70a905d17a6c",
+      "bytes": 960,
+      "filas": 2,
+      "columnas": [
+        "club_id",
+        "club_actual_2026",
+        "identidad_historica_en_fuente",
+        "cambio_documentado",
+        "tratamiento_en_corpus",
+        "canticos_identidad_historica",
+        "canticos_identidad_actual",
+        "fuentes"
+      ]
+    },
+    "bibliografia_apa7.csv": {
+      "sha256": "f47d5b648299cffe7a5d4a7095774e8c1571309cb92d49f8c454da5e9a9389f9",
+      "bytes": 18808,
+      "filas": 75,
+      "columnas": [
+        "ref_id",
+        "referencia_apa7",
+        "url",
+        "fecha_consulta",
+        "datos_respaldados",
+        "notas"
+      ]
+    },
+    "decisiones_revision_fase2.csv": {
+      "sha256": "7649739777406282471e39f9d8cfddcff956d847a0d2948557e4b4366198188b",
+      "bytes": 25490,
+      "filas": 57,
+      "columnas": [
+        "revision_id",
+        "tipo_revision",
+        "canticos_involucrados",
+        "decision_revision",
+        "id_conservar_o_relacionar",
+        "club_id_corregido",
+        "nombre_club_corregido",
+        "justificacion",
+        "revisor",
+        "fecha_revision",
+        "fecha_integracion",
+        "urls_evidencia",
+        "fuente_decision",
+        "estado_aplicacion"
+      ]
+    }
+  }
+}
