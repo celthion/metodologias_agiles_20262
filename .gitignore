@@ -3,3 +3,7 @@
 env_vars*
 credentials*
 **/build/*
+.venv/
+.ipynb_checkpoints/
+/data/raw/
+/data/carga_fase1.json
