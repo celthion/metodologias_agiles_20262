@@ -11,6 +11,14 @@ El proyecto estudia los referentes, sentimientos y emociones en letras públicas
 | :---: | :---: | :---: | :---: |
 | **600** | **17 de 20** | **33.077 palabras** | **8** |
 
+## Equipo del proyecto
+
+| Integrante | Cargo |
+| --- | --- |
+| David Cardona Duque | Líder del proyecto y científico de datos |
+| Manuela Zapata Jiménez | Ingeniera de datos |
+| Federico Viviescas Ramirez | Ingeniero en ML |
+
 ## Entregables de la fase 1
 
 | Entregable | Qué encontrará el lector |
