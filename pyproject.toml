@@ -1,16 +1,28 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm"]
-build-backend = "setuptools.build_meta"
+requires = ["poetry-core>=1.9.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
 
-[project]
-name = "nombre_paquete"
+[tool.poetry]
+name = "canticos-futbol"
 version = "0.1.0"
-authors = [{name = "autor1", email = "correo@correo.com"}]
-description = "Descripción del proyecto"
-requires-python = ">3.8"
-dependencies = [
-    "numpy"
-]
+authors = ["David Cardona Duque", "Manuela Zapata Jiménez", "Federico Viviescas Ramirez"]
+description = "Corpus de cánticos del fútbol profesional colombiano"
+packages = [{ include = "canticos_futbol", from = "src" }]
 
-[tool.setuptools.packages.find]
-where = ["src/"]
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+numpy = "^2.2"
+pandas = ">=2.2,<4"
+scipy = "^1.15"
+scikit-learn = "^1.6"
+matplotlib = "^3.10"
+seaborn = "^0.13"
+
+[tool.poetry.group.notebook.dependencies]
+jupyterlab = "^4.3"
+ipykernel = ">=6.29,<8"
+
+[[tool.poetry.source]]
+name = "fury-pypi"
+url = "https://pypi.artifacts.furycloud.io/simple"
+priority = "primary"
